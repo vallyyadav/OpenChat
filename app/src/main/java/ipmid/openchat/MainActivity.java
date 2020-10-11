@@ -40,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
         window.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorWhite)));
         parseData();
 
+
+    }
+
+    void asdf(){
+
     }
 
     private void parseData() {
