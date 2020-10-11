@@ -43,10 +43,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    void asdf(){
-
-    }
-
     private void parseData() {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
