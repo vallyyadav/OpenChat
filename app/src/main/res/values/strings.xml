@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Open Chat</string>
+    <string name="plus">+</string>
+    <string name="pref">Pref</string>
+    <string name="pref_no">91</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="msg">Write your messages here</string>
+    <string name="msgBtn">Write your Message</string>
+    <string name="openBtn">Open</string>
+</resources>

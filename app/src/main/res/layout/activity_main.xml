@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_shape"
+        android:backgroundTint="@color/green"
+        android:gravity="center_vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="@string/plus"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/countryCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:autofillHints="@string/pref_no"
+            android:backgroundTint="@color/hint"
+            android:hint="@string/pref"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:text="@string/pref_no"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint" />
+
+        <EditText
+            android:id="@+id/noValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7"
+            android:autofillHints="@string/phone_number"
+            android:backgroundTint="@color/hint"
+            android:hint="@string/phone_number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:autofillHints="@string/msg"
+        android:background="@drawable/edit_text_shape"
+        android:backgroundTint="@color/green"
+        android:gravity="top"
+        android:hint="@string/msg"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/openMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/msgBtn"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/openBtn"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
